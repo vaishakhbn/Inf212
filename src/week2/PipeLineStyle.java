@@ -50,7 +50,6 @@ public class PipeLineStyle
 		Collections.sort(valueList, Collections.reverseOrder());
 		for(int i = 0; i<25; i++)
 		{
-			//System.out.println(valueList.get(i)+"  -  "+k.get(valueList.get(i)));
 			System.out.println(k.get(valueList.get(i))+"  -  "+valueList.get(i));
 		}
 		
